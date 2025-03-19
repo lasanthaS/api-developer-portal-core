@@ -19,12 +19,16 @@
     background-color: var(--primary-main-color);
     width: 256px;
     transition: width 0.3s ease;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar.collapsed {
     width: 64px;
+}
+
+.sidebar .nav a {
+    font-size: 1rem;
 }
 
 .nav {
@@ -154,7 +158,6 @@
 .submenu-link {
     margin: 0;
     border-radius: 0;
-    font-size: 15px;
     padding: 0.75rem 1rem !important;
     background-color: transparent;
 }
